@@ -1,0 +1,10 @@
+name: formula1-race-analysis-infra
+description: IaC for formula1-race-analysis-infra
+runtime:
+  name: python
+  options:
+    toolchain: poetry
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: azure-classic-python

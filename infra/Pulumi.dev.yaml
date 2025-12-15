@@ -1,0 +1,8 @@
+config:
+  azure:location: WestUS2
+  azure:subscriptionId: d788218a-3320-4386-8bdb-9d41a4f71231
+  azure:vnet: 10.0.0.0/16
+  azure:prefix: f1-race-analysis
+  kafka-config:prefix: kafka-aks
+  kafka-config:kubernetes_version: 1.29.0
+  kafka-config:subnet_cidr: 10.0.1.0/24
